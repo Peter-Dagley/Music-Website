@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import {BrowserRouter as Router, Route, Routes, Link} from "react-router-dom";
 import About from '../Pages/About/About';
 import Contact from '../Pages/Contact/Contact';
