@@ -7,7 +7,7 @@ const songsSchema = new Schema
         '_id': Number,
         'title': String,
         'genres': [Array],
-        'length': Double
+        'length': Number
     }
 );
 
