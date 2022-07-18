@@ -6,7 +6,7 @@ let id = 1;
 
 // View all replies
 router.get("/readSongs", (req, res, next) => {
-    Replies.find()
+    Songs.find()
       .then((results) => res.send(results))
       .catch((err) => next(err));
   });

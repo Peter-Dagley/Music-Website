@@ -1,13 +1,14 @@
 const mongoose = require('mongoose')
 const Schema = mongoose.Schema
 
+// JSON schema for Songs
 const songsSchema = new Schema
 (
     {
         '_id': Number,
         'title': String,
         'genres': [Array],
-        'length': Double
+        'length': Number
     }
 );
 
