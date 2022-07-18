@@ -20,6 +20,7 @@ const songsRouter = require("./routes/songRoutes");
 
 app.use("/songs", songsRouter);
 
+// Connecting to Mongo DB
 mongoose.connect
 (uri, opts, function (error) {
     if (error) {
@@ -29,6 +30,7 @@ mongoose.connect
     }
 });
 
+// Assigning Port
 const myserver = app.listen(4000, () =>
     console.log("Server started on", myserver.address().port)
 );

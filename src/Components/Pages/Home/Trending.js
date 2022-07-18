@@ -15,7 +15,7 @@ const Trending = () => {
           });
   };
 
-  // Deconstructing Data Object
+  // Deconstructing Data Object - Currently Unnecessary
   const {id, title} = data;
 
   useEffect(() => {
@@ -23,13 +23,14 @@ const Trending = () => {
   }, [])
 
   // Page Display
+  // --- Mongo Database needs to be changed into a master collection of songs which have artists and albums attributed to them
   return (
       <>
-      {data.map(({id, title}) =>
-      <div key={id} id={id} className='card'>
-          <p>{id} {title}</p> 
-      </div>
-       )}
+        {data.map(({id, title}) =>
+          <div key={id} id={id} className='card'>
+              <p>{id} {title}</p> 
+          </div>
+        )}
       </>
   )
 
