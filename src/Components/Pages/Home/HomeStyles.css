@@ -26,3 +26,11 @@ body {
 #mainBody {
     display:flex
 }
+
+#image1 {
+    width: 150px;
+}
+
+#rightbanner {
+    display:flex
+}
