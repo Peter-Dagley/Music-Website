@@ -5,10 +5,13 @@ const Schema = mongoose.Schema
 const songsSchema = new Schema
 (
     {
-        '_id': Number,
-        'title': String,
-        'genres': [Array],
-        'length': Number
+        "id": Number,
+        "songTitle": String,
+        "albumTitle": String,
+        "albumArt": String,
+        "artist": String,
+        "genre": String,
+        "length": Number	
     }
 );
 

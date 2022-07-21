@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static('script'));
 
-const uri = 'mongodb://localhost:27017/soundrave';
+const uri = 'mongodb://localhost:27017/musicdb';
 let opts = { useNewUrlParser: true };
 
 // Routes
