@@ -20,10 +20,9 @@ const [data, setData] = useState([]);
   }, [])
 
   // Deconstructing Data Object
-  const {id, songTitle, albumTitle, albumArt, artist, genre, length} = data;
+  const {id, songTitle, albumTitle, albumArt, artist, genre, length} = data[0] || {};
 
   // Page Display
-  // --- Mongo Database needs to be changed into a master collection of songs which have artists and albums attributed to them
   return (
       <>
         <h1>Album of the Day: {albumTitle}</h1>
