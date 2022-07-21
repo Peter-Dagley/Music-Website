@@ -1,0 +1,137 @@
+db.songs.insertMany([
+{
+    "id": 1,
+    "songTitle": "Downward Spiral",
+    "albumTitle": "Atrocity Exhibition",
+	"albumArt": "https://i0.wp.com/www.7thlevelmusic.com/wp-content/uploads/2018/08/DB.jpg",
+    "artist": "Danny Brown",
+    "genre": "Hip-Hop",
+    "length": 2.52	
+},
+{
+    "id": 2,
+    "songTitle": "Tell Me What I Don't Know",
+    "albumTitle": "Atrocity Exhibition",
+	"albumArt": "https://i0.wp.com/www.7thlevelmusic.com/wp-content/uploads/2018/08/DB.jpg",
+    "artist": "Danny Brown",
+    "genre": "Hip-Hop",
+    "length": 2.31
+},
+{
+    "id": 3,
+    "songTitle": "Rolling Stone",
+    "albumTitle": "Atrocity Exhibition",
+	"albumArt": "https://i0.wp.com/www.7thlevelmusic.com/wp-content/uploads/2018/08/DB.jpg",
+    "artist": "Danny Brown",
+    "genre": "Hip-Hop",
+    "length": 3.47	
+},
+{
+    "id": 4,
+    "songTitle": "Really Doe",
+    "albumTitle": "Atrocity Exhibition",
+	"albumArt": "https://i0.wp.com/www.7thlevelmusic.com/wp-content/uploads/2018/08/DB.jpg",
+    "artist": "Danny Brown",
+    "genre": "Hip-Hop",
+    "length": 5.19
+},
+{
+    "id": 5,
+    "songTitle": "Lost",
+    "albumTitle": "Atrocity Exhibition",
+	"albumArt": "https://i0.wp.com/www.7thlevelmusic.com/wp-content/uploads/2018/08/DB.jpg",
+    "artist": "Danny Brown",
+    "genre": "Hip-Hop",
+    "length": 2.07
+},
+{
+    "id": 6,
+    "songTitle": "Ain't it Funny",
+    "albumTitle": "Atrocity Exhibition",
+	"albumArt": "https://i0.wp.com/www.7thlevelmusic.com/wp-content/uploads/2018/08/DB.jpg",
+    "artist": "Danny Brown",
+    "genre": "Hip-Hop",
+    "length": 2.57
+},
+{
+    "id": 7,
+    "songTitle": "Golddust",
+    "albumTitle": "Atrocity Exhibition",
+	"albumArt": "https://i0.wp.com/www.7thlevelmusic.com/wp-content/uploads/2018/08/DB.jpg",
+    "artist": "Danny Brown",
+    "genre": "Hip-Hop",
+    "length": 2.24
+},
+{
+    "id": 8,
+    "songTitle": "White Lines",
+    "albumTitle": "Atrocity Exhibition",
+	"albumArt": "https://i0.wp.com/www.7thlevelmusic.com/wp-content/uploads/2018/08/DB.jpg",
+    "artist": "Danny Brown",
+    "genre": "Hip-Hop",
+    "length": 2.23
+},
+{
+    "id": 9,
+    "songTitle": "Pneumonia",
+    "albumTitle": "Atrocity Exhibition",
+	"albumArt": "https://i0.wp.com/www.7thlevelmusic.com/wp-content/uploads/2018/08/DB.jpg",
+    "artist": "Danny Brown",
+    "genre": "Hip-Hop",
+    "length": 3.39
+},
+{
+    "id": 10,
+    "songTitle": "Dance In The Water",
+    "albumTitle": "Atrocity Exhibition",
+	"albumArt": "https://i0.wp.com/www.7thlevelmusic.com/wp-content/uploads/2018/08/DB.jpg",
+    "artist": "Danny Brown",
+    "genre": "Hip-Hop",
+    "length": 2.37
+},
+{
+    "id": 11,
+    "songTitle": "From The Ground",
+    "albumTitle": "Atrocity Exhibition",
+	"albumArt": "https://i0.wp.com/www.7thlevelmusic.com/wp-content/uploads/2018/08/DB.jpg",
+    "artist": "Danny Brown",
+    "genre": "Hip-Hop",
+    "length": 2.18
+},
+{
+    "id": 12,
+    "songTitle": "When It Rain",
+    "albumTitle": "Atrocity Exhibition",
+	"albumArt": "https://i0.wp.com/www.7thlevelmusic.com/wp-content/uploads/2018/08/DB.jpg",
+    "artist": "Danny Brown",
+    "genre": "Hip-Hop",
+    "length": 3.15
+},
+{
+    "id": 13,
+    "songTitle": "Today",
+    "albumTitle": "Atrocity Exhibition",
+	"albumArt": "https://i0.wp.com/www.7thlevelmusic.com/wp-content/uploads/2018/08/DB.jpg",
+    "artist": "Danny Brown",
+    "genre": "Hip-Hop",
+    "length": 3.07
+},
+{
+    "id": 14,
+    "songTitle": "Get Hi",
+    "albumTitle": "Atrocity Exhibition",
+	"albumArt": "https://i0.wp.com/www.7thlevelmusic.com/wp-content/uploads/2018/08/DB.jpg",
+    "artist": "Danny Brown",
+    "genre": "Hip-Hop",
+    "length": 3.33
+},
+{
+    "id": 15,
+    "songTitle": "Hell For It",
+    "albumTitle": "Atrocity Exhibition",
+	"albumArt": "https://i0.wp.com/www.7thlevelmusic.com/wp-content/uploads/2018/08/DB.jpg",
+    "artist": "Danny Brown",
+    "genre": "Hip-Hop",
+    "length": 3.49
+}
+])

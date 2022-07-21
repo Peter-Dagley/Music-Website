@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 
 // Songs Function
 const Trending = () => {
-  const [data, setData] = useState([]);
+const [data, setData] = useState([]);
 
   // Songs
   const getSongs = () => {
@@ -15,20 +15,23 @@ const Trending = () => {
           });
   };
 
-  // Deconstructing Data Object - Currently Unnecessary
-  const {id, title} = data;
-
   useEffect(() => {
       getSongs()
   }, [])
 
+  // Deconstructing Data Object
+  const {id, songTitle, albumTitle, albumArt, artist, genre, length} = data[0] || {};
+
   // Page Display
-  // --- Mongo Database needs to be changed into a master collection of songs which have artists and albums attributed to them
   return (
       <>
-        {data.map(({id, title}) =>
+        <h1>Album of the Day: {albumTitle}</h1>
+
+        <h2>Artist: {artist}</h2>
+
+        {data.map(({id, songTitle, albumTitle, albumArt, artist, genre, length}) =>
           <div key={id} id={id} className='card'>
-              <p>{id} {title}</p> 
+              <p>{id}: {songTitle}</p>
           </div>
         )}
       </>
